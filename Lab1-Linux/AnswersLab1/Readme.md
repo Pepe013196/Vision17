@@ -5,7 +5,7 @@ Juan Felipe Perez Correa
 
 Laboratorio 1 - Visión por Computador
 
-1. ``Grep`` command: This command searches the named input files for lines containing a match to the given PATTERN. Also, this prints the matching lines in the command line.
+1. ``Grep`` command: This command searches the named input files for lines containing a match to the given pattern. Also, this prints the matching lines in the command line.
 
 2. Option ``-prune``: The command Find is used to search and locate list of files and directories based on conditions that the user specify for files that match the arguments. With this command is possible find files by permissions, users, type, etc. The option –prune excludes the directories that are named.
 
