@@ -29,7 +29,7 @@ Laboratorio 1 - Visión por Computador
 
 7. ``tail -f`` command: Unlike the default behavior which is to end after printing certain number of lines, the -f option “which stands for follow” will keep the stream going. It will start printing extra lines on to console added to the file after it is opened. This command will keep the file open to display updated changes to console until the user breaks the command.
 
-8. ``link`` command: The link command creates a hard link named FILE2 which shares the same index node as the existing file FILE1. Since FILE1 and FILE2 share the same index node, they will point to the same data on the disk, and modifying one will be functionally the same as modifying the other. This command is different to ln, command that creates a link, or a symbolic link, to a file or directory.
+8. ``link`` command: The link command creates a hard link named FILE2 which shares the same index node as the existing file FILE1. Since FILE1 and FILE2 share the same index node, they will point to the same data on the disk, and modifying one will be functionally the same as modifying the other. This command is different to ``ln``, command that creates a link, or a symbolic link, to a file or directory.
 
   Any changes that occurred with either of these files would affect the other file or link.
 
