@@ -70,24 +70,24 @@ Laboratorio 1 - Visión por Computador
 
 REFERENCES
 
-1.	http://linuxcommand.org/man_pages/grep1.html
+1.	Command Grep. http://linuxcommand.org/man_pages/grep1.html
 
-2.	http://www.tecmint.com/35-practical-examples-of-linux-find-command/
+2.	35 Practical Examples of Linux Find Command. http://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
-3.	http://www.computerhope.com/unix/rsync.htm
+3.	Linux and Unix rsync command. http://www.computerhope.com/unix/rsync.htm
 
-4.	http://www.computerhope.com/unix/udiff.htm
+4.	Linux and Unix diff command. http://www.computerhope.com/unix/udiff.htm
 
-5.	http://www.linuxnix.com/14-tail-head-commands-linuxunix/
+5.	14 Tail and head commands in LINUX/UNIX. http://www.linuxnix.com/14-tail-head-commands-linuxunix/
 
-6.	http://www.computerhope.com/unix/link.htm
+6.	Linux and Unix link command. http://www.computerhope.com/unix/link.htm
 
-7.	http://stackoverflow.com/questions/13872048/bash-script-what-does-bin-bash-mean
+7.	Bash Script : what does #!/bin/bash mean? http://stackoverflow.com/questions/13872048/bash-script-what-does-bin-bash-mean
 
-8.	https://www.cyberciti.biz/faq/linux-list-users-command/
+8.	Linux Command: List All Users In The System. https://www.cyberciti.biz/faq/linux-list-users-command/
 
-9.	http://unix.stackexchange.com/questions/22729/where-do-i-change-my-shell
+9.	Where do I change my shell? http://unix.stackexchange.com/questions/22729/where-do-i-change-my-shell
 
-10.	https://enavas.blogspot.com.co/2008/03/el-shell-de-linux-comando-sort.html
+10.	El shell de linux: Comando sort. https://enavas.blogspot.com.co/2008/03/el-shell-de-linux-comando-sort.html
 
 11.	
