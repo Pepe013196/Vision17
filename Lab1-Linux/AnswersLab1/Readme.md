@@ -33,13 +33,9 @@ Laboratorio 1 - Visión por Computador
 
   Any changes that occurred with either of these files would affect the other file or link.
 
-9. ``#! /bin/bash``: 
+9. ``#! /bin/bash``: In Linux system, we have shell which interprets our UNIX commands. Now there are a number of shell in Unix system. The default shell in Linux called bash. When you write a script (collection of unix commands and so on) you have a option to specify which shell it can be used. Generally you can specify which shell it wold be by using Shebang.
 
-  In Linux system, we have shell which interprets our UNIX commands. Now there are a number of shell in Unix system. Among them, there is a shell called bash which is very common Linux and it has a long history. This is a by default shell in Linux.
-  
-  When you write a script (collection of unix commands and so on) you have a option to specify which shell it can be used. Generally you can specify which shell it wold be by using Shebang.
-
-  So if you #!/bin/bash in the top of your scripts then you are telling your system to use bash as a default shell.
+  So if you write ``#!/bin/bash`` in the top of your scripts, you are telling your system to use bash as a default shell.
 
 10. Users: The information of the users on linux is on the /etc/passwd file. This file contains one line for each user account, with seven fields delimited by colons.  Due to this characteristic, is possible use wc –l, that is a command that counts the number of lines in a file, printing the number of users on the server
   ```
