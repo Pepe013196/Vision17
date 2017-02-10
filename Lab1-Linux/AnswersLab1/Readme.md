@@ -65,17 +65,80 @@ Juan Felipe Perez Correa
   ```
 12. g 
 
-13. g
+13. Download the bsds500 image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
 
-14. g
+  For this, we searched the link of the BSDS500 on Internet, and we put the next command on the terminal:
 
-15. g
+  ```
+  wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz
 
-16. g
+  ```
 
-17. g
+  After that, we proceeded to decompress the downloaded file with the command:
 
-#References
+  ```
+  tar -xzvf BSR_bsds500.tgz
+  ```
+
+ 14. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
+
+  We used the command:
+
+  ```
+  ls -l | grep .tgz
+  ```
+
+  To know the size of the files inside the current folder. The size of the uncompressed dataset is 70763455 bytes. We can see the size of the file in the 5th column of the output.
+
+  To know the number of images in the current directory and all its folders inside it, we used the command:
+
+  ```
+  $find . -type f -exec file {} \; | grep -c -i 'image'
+  ```
+  The number of images within the directory is 500 images.
+
+  15. What is their resolution, what is their format?
+
+  To find the format we use the command:
+
+  ```
+  find . -name '*' -exec file {} \; | grep -o -P '^.+: \w+ image'
+  ```
+  The output is the format of the image files, and it is JPEG for all images inside the folder.
+
+  To see the resolution we use the command:
+
+  ```
+  identify -size *.*
+  ```
+  The 3rd column od the output gives the resolution of the images. We can see that their resolutions are 481x321 for some images, and 321x481 for th others.
+
+  This last command also gives the format of the images in the second column.
+
+16. How many of them are in landscape orientation (opposed to portrait)?
+
+  For this, we used the command:
+
+  ```
+  identify -size *.* |grep 481x321|wc -l
+  ```
+
+  This command only return the results in the current folder, so we must repeat the procedure for all sub folders of images.
+
+  In total there are: 133 (test) + 136 (train) + 77 (val) = 346 images in landscape orientation.
+
+17. Crop all images to make them square (256x256).
+
+  To crop the images we used the command convert from imagemagick:
+
+  ```
+  convert -crop 250x250+0+0 *.jpg
+  ```
+
+  That command crop all the images in the current folder to the size of 250x250, begining in the pixels 0,0 of the original image.
+
+
+  #References
 
 1.	Command Grep. http://linuxcommand.org/man_pages/grep1.html
 
@@ -97,4 +160,13 @@ Juan Felipe Perez Correa
 
 10.	El shell de linux: Comando sort. https://enavas.blogspot.com.co/2008/03/el-shell-de-linux-comando-sort.html
 
-11.	
+11.	ImageMagick v6 Examples -- Cutting and Bordering. http://www.imagemagick.org/Usage/crop/#crop
+
+12. Identify resolution. http://www.imagemagick.org/discourse-server/viewtopic.php?t=17451
+
+13. Convert: https://www.imagemagick.org/script/convert.php
+
+14. Tar. http://www.linfo.org/tar.html
+
+15. Linux find command. http://www.binarytides.com/linux-find-command-examples/
+
