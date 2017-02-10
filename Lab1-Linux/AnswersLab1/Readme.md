@@ -138,7 +138,7 @@ Juan Felipe Perez Correa
   That command crop all the images in the current folder to the size of 250x250, begining in the pixels 0,0 of the original image.
 
 
-  #References
+#References
 
 1.	Command Grep. http://linuxcommand.org/man_pages/grep1.html
 
