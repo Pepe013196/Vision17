@@ -111,7 +111,7 @@ Juan Felipe Perez Correa
   ```
   identify -size *.*
   ```
-  The 3rd column od the output gives the resolution of the images. We can see that their resolutions are 481x321 for some images, and 321x481 for th others.
+  The 3rd column od the output gives the resolution of the images. We can see that their resolutions are 481x321 for some images, and 321x481 for the others.
 
   This last command also gives the format of the images in the second column.
 
