@@ -83,7 +83,7 @@ Juan Felipe Perez  -
   tar -xzvf BSR_bsds500.tgz
   ```
   
-  14. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
+14. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
 
   We used the command:
 
@@ -100,7 +100,7 @@ Juan Felipe Perez  -
   ```
   The number of images within the directory is 500 images.
   
-  15. What is their resolution, what is their format?
+15. What is their resolution, what is their format?
 
   To find the format we use the command:
 
