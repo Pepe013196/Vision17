@@ -45,6 +45,12 @@ Laboratorio 1 - Visión por Computador
   ```
   wc -l /etc/passwd
   ```
+  
+  The command prints in the console
+  
+  ```
+  39 /etc/paswd
+  ```
 
 11. Command that produce a table of Users and Shells:
 
