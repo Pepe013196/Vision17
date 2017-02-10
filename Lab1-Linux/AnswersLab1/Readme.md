@@ -63,8 +63,11 @@ Juan Felipe Perez Correa
   ```
   cut -f 1,7 -d ':' /etc/passwd | sort -k2 -t ':'
   ```
-12. g 
+12. Find duplicates
 
+  ```
+  find -type f -exec md5sum '{}' ';' | sort | uniq --all-repeated=separate -w 15
+  ```
 13. Download the bsds500 image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
 
   For this, we searched the link of the BSDS500 on Internet, and we put the next command on the terminal:
