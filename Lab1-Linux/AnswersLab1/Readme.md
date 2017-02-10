@@ -3,7 +3,9 @@ Fabian Enrique Martinez Solano
 Juan Felipe Perez Correa
 
 
-Laboratorio 1 - Visión por Computador
+#Laboratorio 1 - Visión por Computador
+
+##Answers
 
 1. ``Grep`` command: This command searches the named input files for lines containing a match to the given pattern. Also, this prints the matching lines in the command line.
 
@@ -73,7 +75,7 @@ Laboratorio 1 - Visión por Computador
 
 17. g
 
-REFERENCES
+#References
 
 1.	Command Grep. http://linuxcommand.org/man_pages/grep1.html
 
