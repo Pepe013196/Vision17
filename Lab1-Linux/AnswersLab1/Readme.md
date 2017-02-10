@@ -65,8 +65,17 @@ Laboratorio 1 - Visión por Computador
   ```
   cut -f 1,7 -d ':' /etc/passwd | sort -k2 -t ':'
   ```
+12. g 
 
+13. g
 
+14. g
+
+15. g
+
+16. g
+
+17. g
 
 REFERENCES
 
