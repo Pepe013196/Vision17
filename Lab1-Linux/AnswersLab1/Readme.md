@@ -1,6 +1,6 @@
-Fabian Enrique Martinez Solano - 201314566
+Fabian Enrique Martinez Solano
 
-Juan Felipe Perez  - 
+Juan Felipe Perez
 
 
 #Laboratorio 1 - Visión por Computador
