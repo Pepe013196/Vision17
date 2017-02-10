@@ -21,7 +21,7 @@ Laboratorio 1 - Visión por Computador
   The textured file is only in the “sipi_images” directory, and when the user excludes with the command -prune, the result of the search is: ``file or directory does not exist``.
 
 3. ``cut`` command: Is used for text processing. Cut is a command used to extract sections from each line of input, usually from a file. This command has different options, for example bytes, characters, delimiter, fiels, etc, that restrict the zone to cut.
-4. rsync command: I0s the abbreviate of Remote Sync. This command is used for copying and syncghronizing files and directories remotely as well as locally in Linux sistems. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. This command offers a large number of options that control every aspect of its behavior and permit very flexible specification of the set of files to be copied.
+4. ``rsync`` command: I0s the abbreviate of Remote Sync. This command is used for copying and syncghronizing files and directories remotely as well as locally in Linux sistems. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. This command offers a large number of options that control every aspect of its behavior and permit very flexible specification of the set of files to be copied.
 
 5. ``diff`` command: This command analyzes two files and prints the lines that are different between this files. In addition, the command prints a set of instructions for how to change one file in order to make it identical to the second file; this instructions are numbers (identify the line of the files) and letters (a for add, c for change or d to delete). The command does not change the content of any file.
 
