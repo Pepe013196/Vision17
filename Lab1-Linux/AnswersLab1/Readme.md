@@ -174,3 +174,4 @@ Juan Felipe Perez  -
 15. Linux find command. http://www.binarytides.com/linux-find-command-examples/
 
 16. How to Sort and Remove Duplicate Photos in Linux. https://www.linux.com/learn/how-sort-and-remove-duplicate-photos-linux
+ 
