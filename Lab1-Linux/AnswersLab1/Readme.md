@@ -12,12 +12,12 @@ Laboratorio 1 - Visión por Computador
   Example: 
 
   To see the difference between the use and the non-use of the command, the following lines of code are made:
-```
+  ```
   a)	find texture ./sipi_images
-```
-```
+  ```
+  ```
   b)	find texture ./sipi_images –prune –o –print 
-```
+  ```
   The textured file is only in the “sipi_images” directory, and when the user excludes with the command -prune, the result of the search is: file or directory does not exist.
 
 3. ``cut`` command: Is used for text processing. Cut is a command used to extract sections from each line of input, usually from a file. This command has different options, for example bytes, characters, delimiter, fiels, etc, that restrict the zone to cut.
@@ -42,9 +42,9 @@ Laboratorio 1 - Visión por Computador
   So if you #!/bin/bash in the top of your scripts then you are telling your system to use bash as a default shell.
 
 10. Users: The information of the users on linux is on the /etc/passwd file. This file contains one line for each user account, with seven fields delimited by colons.  Due to this characteristic, is possible use wc –l, that is a command that counts the number of lines in a file, printing the number of users on the server
-```
+  ```
   wc -l /etc/passwd
-```
+  ```
 
 11. Command that produce a table of Users and Shells:
 
@@ -58,7 +58,7 @@ Laboratorio 1 - Visión por Computador
   After this procedure, the next step is sort by shell. The shell is in the second column, so it is necessary to use the -k 2 option, and the -t option that specifies the character that separates the fields. Finally, the command is
   ```
   cut -f 1,7 -d ':' /etc/passwd | sort -k2 -t ':'
-```
+  ```
 
 
 
