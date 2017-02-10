@@ -63,7 +63,7 @@ Juan Felipe Perez Correa
   ```
   cut -f 1,7 -d ':' /etc/passwd | sort -k2 -t ':'
   ```
-12. Find duplicates
+12. Find duplicates [16]
 
   ```
   find -type f -exec md5sum '{}' ';' | sort | uniq --all-repeated=separate -w 15
@@ -173,3 +173,4 @@ Juan Felipe Perez Correa
 
 15. Linux find command. http://www.binarytides.com/linux-find-command-examples/
 
+16. How to Sort and Remove Duplicate Photos in Linux. https://www.linux.com/learn/how-sort-and-remove-duplicate-photos-linux
