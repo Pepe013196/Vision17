@@ -1,1 +1,30 @@
 
+d = imread('img4.jpg');
+c = imread('img3.jpg');
+
+t = 33;
+sigma = 3.5;
+
+h = fspecial('gaussian',t,sigma);
+
+dLp = imfilter(d,h);
+
+%imshow(dLp);
+
+h2 = zeros(t);
+h2((t+1)/2,(t+1)/2) = 1;
+h2 = h2 - h;
+
+cHp = zeros(size(c));
+cHp(:,:,1) = conv2(c(:,:,1),h2,'same') + ones(size(cHp(:,:,1)))*255*0.5;
+cHp(:,:,2) = conv2(c(:,:,2),h2,'same') + ones(size(cHp(:,:,1)))*255*0.5;
+cHp(:,:,3) = conv2(c(:,:,3),h2,'same') + ones(size(cHp(:,:,1)))*255*0.5;
+cHp = uint8(cHp);
+%figure
+%imshow(cHp);
+
+res = imadd(dLp,cHp,'uint16');
+res = res/2;
+res = uint8(res);
+figure
+imshow(res);
